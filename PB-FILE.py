@@ -10,12 +10,8 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
 
-    from FILEV2 import dump
-
-    dump()
+    import FILEV2
 
 elif bit == '32bit':
 
-    from FILE import dump
-
-    dump()
+    import FILE
